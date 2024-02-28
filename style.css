@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+header{
+    height: 20vh;
+}
+.contenedorReseñas{
+    border: 2px solid red;
+    height: 80vh;
+}
+
+.reseña{
+    border: 1px solid blue;
+}
+.contenedorEmpresa{
+    border: 2px solid pink;
+}
+.video{
+    border: 2px solid yellow;
+}
+.bodyFlex{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color: rgb(64, 134, 123);
+    color: white;
+    
+}
+.datos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
