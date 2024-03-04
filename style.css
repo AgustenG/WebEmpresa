@@ -8,21 +8,43 @@ body {
     flex-flow: column nowrap;
 }
 header{
-    height: 20vh;
+    height: 10vh;
+    text-align: center;
+    background-color: rgb(16, 198, 223);
 }
+li {
+    display: inline;
+    text-align: center;
+    padding-right: 300px;
+    background-color: burlywood;
+  }
 .contenedorReseñas{
     border: 2px solid red;
     height: 80vh;
+    margin: 20px;
+    width: 20%;
+    background-color: rgb(15, 221, 152);
+}
+.contenedorEmpresa{
+    height: 80vh;
+    margin: 20px;
+    width: 20%;
 }
 
 .reseña{
     border: 1px solid blue;
+    margin: 10px;
 }
 .contenedorEmpresa{
     border: 2px solid pink;
+    background-color: rgb(15, 221, 152);
 }
 .video{
     border: 2px solid yellow;
+    background-color: rgb(0, 0, 0);
+    height: 80vh;
+    margin: 20px;
+    width: 30%;
 }
 .bodyFlex{
     display: flex;
@@ -32,8 +54,9 @@ header{
 }
 
 footer{
-    background-color: rgb(64, 134, 123);
-    color: white;
+    background-color: rgb(17, 172, 192);
+    color: rgb(0, 0, 0);
+    padding: 1rem;
     
 }
 .datos{
