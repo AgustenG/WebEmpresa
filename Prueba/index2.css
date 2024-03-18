@@ -1,0 +1,129 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #FFD8B8;
+}
+
+li {
+    background-color: burlywood;
+    border-radius: 50px;
+  }
+  li:hover{
+    background-color: rgb(190, 112, 10);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;    
+}
+ul li a {
+    text-decoration: none;
+}
+.reseña{
+    height: 10px;
+}
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+main {
+    min-height: calc(85% - 200px); /* 200px para header y footer */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section {
+    padding: 20px;
+}
+
+.reseñas, .frases, .video {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.reseñas {
+    background-color: lightblue; /* Para demostración */
+}
+
+.frases {
+    background-color: lightgreen; /* Para demostración */
+}
+
+.video {
+    background-color: lightyellow; /* Para demostración */
+}
+
+.reseñas div {
+    display: flex;
+    align-items: center;
+}
+
+.reseñas img {
+    max-width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 27px;    
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding: 15px;
+}
+
+.reseñas, .frases, .video {
+    border-radius: 40px;
+}
+
+.colors {
+    color: #B6FDFD;
+    color: #7FFAFA;
+    color: #53F8F8;
+    color: #2AF3F3;
+    color: #00E5E5;
+    color: #00E5E5;
+    
+    color: #BED1FD;
+    color: #8CAEFB;
+    color: #6592F9;
+    color: #4077F5;
+    color: #1858EA;
+   
+    color: #FFE7B8;
+    color: #FFD581;
+    color: #FFC655;
+    color: #FFB92D;
+    color: #FFAA00;
+    
+    color: #FFD8B8;
+    color: #FFBA81;
+    color: #FFBA81;
+    color: #FF8C2D;
+    color: #FF7400;
+}
+.footerThings {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footerThings a{
+    color: #09bcdb;
+}
